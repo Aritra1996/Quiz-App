@@ -1,0 +1,99 @@
+nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #218380;
+        color: white;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+#startQuiz {
+    margin-bottom: 10px;
+    color: white;
+    background-color: #218380;
+}
+
+#question {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.quiz-option {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  background-color: #218380;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiz-option:hover {
+  background-color: #e0e0e0;
+}
+
+#feedback {
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #007BFF;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    opacity: 0.9;
+    transition: opacity 1s; /* Fade out effect */
+}
+
+#feedback:empty {
+    opacity: 0; /* Hide when no feedback */
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#leaderboard {
+  cursor: pointer;
+}
+
